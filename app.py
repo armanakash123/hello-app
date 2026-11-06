@@ -1,0 +1,5 @@
+import stremlit as st
+from logic import greet
+
+st.title("Hello App")
+st.write(greet())
