@@ -1,8 +1,7 @@
 import stremlit as st
-from logic import greet
+from logic import add
 
-name = st.text_input("Your name")
+a = st.number_input("First Number")
+b = st.number_input("Second Number")
 
-if name:
-	st.write(greet(name))
-
+st.write(f"Sum: {add(a,b)}")
